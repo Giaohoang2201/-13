@@ -1,0 +1,66 @@
+Data Size : 1000
+
+Algorithm       Comparisons    Time(ms)    Memory(Bytes)
+--------------------------------------------------------
+Merge Sort      8720           0.0530      4528
+Quick (First)   11328          0.0367      1104
+Quick (Random)  10876          0.0416      1104
+Quick (Median3) 11424          0.0404      960
+
+[검증] 모든 정렬 결과 오름차순 확인: OK
+
+Data Size : 2000
+
+Algorithm       Comparisons    Time(ms)    Memory(Bytes)
+--------------------------------------------------------
+Merge Sort      19416          0.1076      8576
+Quick (First)   24327          0.0751      1104
+Quick (Random)  22239          0.0922      1056
+Quick (Median3) 23951          0.0845      864
+
+[검증] 모든 정렬 결과 오름차순 확인: OK
+
+Data Size : 4000
+
+Algorithm       Comparisons    Time(ms)    Memory(Bytes)
+--------------------------------------------------------
+Merge Sort      42825          0.2514      16624
+Quick (First)   57415          0.1571      1488
+Quick (Random)  59290          0.1865      1296
+Quick (Median3) 53521          0.1803      1056
+
+[검증] 모든 정렬 결과 오름차순 확인: OK
+
+Data Size : 8000
+
+Algorithm       Comparisons    Time(ms)    Memory(Bytes)
+--------------------------------------------------------
+Merge Sort      93558          0.5258      32672
+Quick (First)   131139         0.3362      1584
+Quick (Random)  117454         0.3971      1344
+Quick (Median3) 120194         0.3942      1200
+
+[검증] 모든 정렬 결과 오름차순 확인: OK
+
+Data Size : 16000
+
+Algorithm       Comparisons    Time(ms)    Memory(Bytes)
+--------------------------------------------------------
+Merge Sort      203338         1.0581      64720
+Quick (First)   252764         0.7522      1488
+Quick (Random)  277070         0.8564      1584
+Quick (Median3) 245501         0.8347      1152
+
+[검증] 모든 정렬 결과 오름차순 확인: OK
+
+Data Size : 20000
+
+Algorithm       Comparisons    Time(ms)    Memory(Bytes)
+--------------------------------------------------------
+Merge Sort      260725         1.3634      80768
+Quick (First)   318922         0.9441      1488
+Quick (Random)  332727         1.0897      1632
+Quick (Median3) 317121         1.0489      1200
+
+[검증] 모든 정렬 결과 오름차순 확인: OK
+
